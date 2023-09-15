@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+<title>图片轮转</title>
+
+<link href="static/css/reset_zl_2021519.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+
+<div class="contents"> 
+  <!--图片轮转-->
+  <div class="poster_box">
+    <div class="caroursel poster-main" data-setting='{
+           "width":1060,		
+"height":300,		
+"posterWidth":543,	
+"posterHeight":297,
+"scale":0.85,		
+"speed": 500,	
+"autoPlay":true,	
+"delay":2000,	
+"verticalAlign":"middle"
+        }'>
+      <div class="poster-btn poster-prev-btn"></div>
+      <ul class="poster-list">
+        <li class="poster-item">
+          <div class="item"> <a href="#"><img class="tabImg" src="static/picture/t1.png"></a> <span class="poster-item-title">顾然一号到！！！</span> </div>
+        </li>
+        <li class="poster-item">
+          <div class="item"> <a href="#"><img class="tabImg" src="static/picture/t2.png"></a> <span class="poster-item-title">顾然二号到！！</span> </div>
+        </li>
+        <li class="poster-item">
+          <div class="item"> <a href="#"><img class="tabImg" src="static/picture/t3.png"></a> <span class="poster-item-title">顾然三号到！！</span> </div>
+        </li>
+        <li class="poster-item">
+          <div class="item"> <a href="#"><img class="tabImg" src="static/picture/t4.png"></a> <span class="poster-item-title">顾然四号到！！</span> </div>
+        </li>
+        <li class="poster-item">
+          <div class="item"> <a href="#"><img class="tabImg" src="static/picture/t5.png"></a> <span class="poster-item-title">顾然五号到！！</span> </div>
+        </li>
+      </ul>
+      <ul class="lunbo_btn">
+        <li class="tabBtn"></li>
+        <li class="tabBtn"></li>
+        <li class="tabBtn"></li>
+        <li class="tabBtn"></li>
+        <li class="tabBtn"></li>
+      </ul>
+      <div class="poster-btn poster-next-btn"></div>
+    </div>
+    <!--pc 图片轮转  end--> 
+    
+  </div>
+</div>
+
+<script src="static/js/jquery-1.10.2.js"></script>
+<script src="static/js/jquery.carousel-zl-fb.js"></script><!-- 首页切换 --> 
+<script>Caroursel.init($('.caroursel'))</script>
+
+</body>
+</html>
